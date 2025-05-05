@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     let currentSlide = 0;
     const slides = document.querySelectorAll('.slide');
-    const dots = document.querySelectorAll('.dot');
     const milisegundos = 10000;
 
     function showSlide() {
