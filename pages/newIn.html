@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/producto.css">
+    <link rel="stylesheet" href="../styles/newIn.css">
     <title>E-commerce</title>
 </head>
 <body>
@@ -25,7 +25,7 @@
                  </div>
                  
                  <div class="logo">
-                     <a href="../index.html"><img src="../assets/img/logo_creado_250x125_centrado.png" alt="Logo" id="logo"></a>
+                    <a href="../index.html"><img src="../assets/img/logo_creado_250x125_centrado.png" alt="Logo" id="logo"></a>
                  </div>
                  
                  <div class="right-menu">
@@ -41,42 +41,35 @@
     </header>
     <!-- Fin del header -->
 
+    <!-- Comienzo main -->
     <main>
-        <div class="product">
-            <h1>Producto Destacado</h1>
-            <div class="product-details">
-                <div class="product-image">
-                    <img src="https://cameo-oficial.com.ar/wp-content/uploads/2025/04/1-scaled.jpg" alt="imagen de producto">
-                </div>
-                <div class="product-info">
-                    <h2>Nombre del Producto</h2>
-                    <div class="product-rating">⭐⭐⭐⭐☆ (4.0) · 23 opiniones</div>
-                    <p>Descripción del producto. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Perfecto para el uso diario.</p>
-                    
-                    <p class="stock">En stock</p>
-                    <p class="discount">¡20% de descuento por tiempo limitado!</p>
-                    <p class="price">$250 <del style="color:#888; font-size: 1rem;">$313</del></p>
-
-                    <label for="size">Tamaño:</label>
-                    <select id="size" name="size">
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
-                        <option>XL</option>
-                    </select>
-
-                    <ul class="specs">
-                        <li>Material: Algodón 100%</li>
-                        <li>Peso: 500g</li>
-                        <li>Fabricado en: España</li>
-                    </ul>
-
-                    <button>Añadir al carrito</button>
-                    <button class="add-to-wishlist">❤️ Añadir a favoritos</button>
-                </div>
+        <section class="products-container" id="productos">
+        <div class="newIn">
+            <h1>Nuevos Ingresos</h1>
+            <div class="cards-container">
+                    <div class="card">
+                        <h2>Nuevo Producto 1</h2>
+                        <img src="https://cameo-oficial.com.ar/wp-content/uploads/2025/04/CATALOGO-750x1076.jpg" alt="imagen de producto">
+                        <p>Descripción del producto 1</p>
+                        <p>Precio: $100</p>
+                    </div>
+                    <div class="card">
+                        <h2>Nuevo Producto 2</h2>
+                        <img src="https://cameo-oficial.com.ar/wp-content/uploads/2025/04/CATALOGO_Mesa-de-trabajo-1-7-scaled.jpg" alt="imagen de producto">
+                        <p>Descripción del producto 2</p>
+                        <p>Precio: $250</p>
+                    </div>
+                    <div class="card">
+                        <h2>Nuevo Producto 3</h2>
+                        <img src="https://cameo-oficial.com.ar/wp-content/uploads/2025/04/FOTOS-WEB-5.jpg" alt="imagen de producto">
+                        <p>Descripción del producto 1</p>
+                        <p>Precio: $150</p>
+                    </div>
             </div>
         </div>
     </main>
+    <!-- Fin del main -->
+
 
     <footer>
         <div class="footer-content">
@@ -85,7 +78,7 @@
                 <ul class="footer-links">
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="#productos">Productos</a></li>
-                    <li><a href="./newIn.html">Nuevo Ingreso</a></li>
+                    <li><a href="#nuevo-ingreso">Nuevo Ingreso</a></li>
                     <li><a href="#mas-vendidos">Más Vendidos</a></li>
                 </ul>
             </div>
